@@ -1,10 +1,12 @@
-tmp
-*.rdb
-.env
-.sass-cache
 .DS_Store
+
+# Compiled site
 _site
-.jekyll-cache
-.git
-.vscode
-.obsidian
+.jekyll-cache/
+
+# Sass garbage
+.sass-cache
+
+# Bundler
+.bundle/
+vendor/
