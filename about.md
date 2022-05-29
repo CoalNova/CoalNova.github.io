@@ -5,14 +5,15 @@ permalink: /about/
 main_nav: true
 ---
 
+This is the official Development Weblog for the CoalStar Engine project, and the subsequent projects built within.
+
+CoalStar is a video game engine project. The goals of the engine are dedicated openworld, with seamlessly traversable landforms much larger than most seen in the current market. As well, an emphasis is placed on player movement and interactions, creating a less rigid engagement with the worldspace as a whole. The ideal complete form is an an open world RPG system that players can fully explore and engage with, without the necessary macro/micro scaling necessary in current implementations.
+
+I am, at the time of this writing, the sole developer of the project. I consider myself an amatuer at programming, C++ or otherwise, so the codebase is to remain hidden at this time (if only to save myself shame and embarrassement). All information presented within the blog may change at any time due to the needs of expedited releases, changes in project scope, and/or a complete misunderstanding of what certain systems/subsystems/goals require. 
+
+This blog uses Jekyll, which I am uncertain as to how to classify. Link is below.
+
 ![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
 
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
-
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
-
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
-
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
+[GitHub]: https://github.com/CoalNova
 [jekyll]: https://github.com/jekyll/jekyll

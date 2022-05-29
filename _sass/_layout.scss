@@ -28,7 +28,7 @@ ul.default {
 }
 
 code {
-	background-color: #eee;
+	background-color: $darkest-gray;
 	display: inline-block;
 	border-radius: 3px;
 	padding: 0 3px;
@@ -68,7 +68,7 @@ pre code.hljs {
     position: relative;
     top: -26px;
     display: block;
-    background: $white;
+    background: $darkest-gray;
     width: 16px;
     height: 16px;
     margin-left: auto;
@@ -86,8 +86,8 @@ pre code.hljs {
 	width: 100%;
 	text-align: center;
 	&.has-cover {
-		color: $white;
-		text-shadow: 0 2px 1px rgba(0,0,0,0.67) !important;
+		color: $darkest-gray;
+		text-shadow: 0 2px 1px rgba(16, 16, 24, 0.67) !important;
 		background-position: 50% 50%;
 		background-size: cover;
 		.title {
@@ -121,7 +121,7 @@ pre code.hljs {
 	top: 0;
 	left: 0;
 	right: 0;
-	background: $white;
+	background: $darkest-gray;
 	z-index: 1;
 	/*
 	*	Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
@@ -255,7 +255,7 @@ pre code.hljs {
     }
 	}
 	.site-header-container {
-		color: $white;
+		color: $darkest-gray;
 		text-shadow: 0 2px 1px rgba(0,0,0,0.33);
 		background-color: $highlight-color;
 		.site-header{
@@ -372,10 +372,10 @@ pre code.hljs {
 *	Footer
 */
 .site-footer {
-	$link-color: $white;
+	$link-color: $darkest-gray;
 	padding: 1em 1em 2em 1em;
 	background-color: $highlight-color;
-	color: $white;
+	color: $darkest-gray;
 	a {
 	  color: $link-color;
 	  &:active,
