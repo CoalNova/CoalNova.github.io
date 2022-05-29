@@ -11,9 +11,4 @@ CoalStar is a video game engine project. The goals of the engine are dedicated o
 
 I am, at the time of this writing, the sole developer of the project. I consider myself an amatuer at programming, C++ or otherwise, so the codebase is to remain hidden at this time (if only to save myself shame and embarrassement). All information presented within the blog may change at any time due to the needs of expedited releases, changes in project scope, and/or a complete misunderstanding of what certain systems/subsystems/goals require. 
 
-This blog uses Jekyll, which I am uncertain as to how to classify. Link is below.
-
 ![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
-
-[GitHub]: https://github.com/CoalNova
-[jekyll]: https://github.com/jekyll/jekyll

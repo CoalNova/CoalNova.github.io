@@ -216,6 +216,7 @@ pre code.hljs {
 .page-content {
 	// Remove this to make header scrollable again
 	margin-top: 66px;
+	background-color: $darkest-gray;
 	.wrapper {
 		@include outer-container;
 		padding: 1em;
@@ -223,6 +224,7 @@ pre code.hljs {
 	/*
 	*	index.html
 	*/
+	
 	.post-list {
 		padding-top: 1em !important;
 		@extend %default-ul;
@@ -230,7 +232,7 @@ pre code.hljs {
 	.post-meta {
 		@include outer-container;
 		// padding: 1em 0;
-		color: $medium-gray;
+		color: $light-gray;
 		.post-date {
 			@include span-columns(6);
 			text-align: left;
@@ -246,7 +248,7 @@ pre code.hljs {
 	.pagination {
 		padding-top: 2em;
 		text-align: center;
-		color: $medium-gray;
+		color: $light-gray;
 		.page-number {
 			padding: 0 1em;
 		}
@@ -257,7 +259,7 @@ pre code.hljs {
 	.site-header-container {
 		color: $darkest-gray;
 		text-shadow: 0 2px 1px rgba(0,0,0,0.33);
-		background-color: $highlight-color;
+		background-color: $darkest-gray;
 		.site-header{
 			.title {
 				font-size: modular-scale(6);
@@ -372,9 +374,9 @@ pre code.hljs {
 *	Footer
 */
 .site-footer {
-	$link-color: $darkest-gray;
+	$link-color: $light-gray;
 	padding: 1em 1em 2em 1em;
-	background-color: $highlight-color;
+	background-color: $darkest-gray;
 	color: $darkest-gray;
 	a {
 	  color: $link-color;
