@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Igniting a Star"
 date:   2015-04-20 08:43:59
 author: "CoalNova"
-categories: CoalStar Engine
+categories: CoalStar
 tags:	CoalStar Explanation Introduction
 cover:  "/assets/instacode.png"
 ---
