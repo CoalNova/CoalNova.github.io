@@ -1,17 +1,30 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
+<!doctype html>
+<html lang="en">
 
-	<body style="background-color: #121010;">
+{%- include head.html -%}
 
-    {% include header.html %}
+<body>
 
-    <div class="page-content">
-        {{ content }}
+    <div id="layout" class="pure-g">
+
+        {%- include sidebar.html -%}
+
+        <div class="content pure-u-1 pure-u-md-3-4">
+            <div class="md-display">
+                <h1>
+                    <a class="jekyll-header" href="/">Welcome to {{site.title}}</a>
+                </h1>
+                {%- include links.html -%}
+                {%- include search.html -%}
+            </div>
+            <div>
+                {{ content }}
+                {%-include footer.html -%}
+
+            </div>
+        </div>
     </div>
 
-    {% include footer.html %}
-
-  </body>
+</body>
 
 </html>
