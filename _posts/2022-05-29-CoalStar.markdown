@@ -2,102 +2,36 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-04-20 08:43:59
-author: Ben Centra
-categories: CoalStar
-tags:	CoalStar Explanation
+author: "CoalNova"
+categories: CoalStar Engine
+tags:	CoalStar Explanation Introduction
 cover:  "/assets/instacode.png"
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## Igniting a Star
+Welcome to the development web log for the CoalStar game engine. It is an engine which is purposed built towards open world gameplay. It is developed in C++ using the Simple-Direct Media Layer, GL Math, ZLIB, and GL Extension Wrangler libraries. CoalStar currently targets OpenGL 3.3 on Windows 10 and will (hopefully) become platform independant. The operational goal is to allow for larger than standard world sizes while maintaining a high level of precision. Additionally, the engine will allow for faster than normal travel through streamlining data' loading and processing. Technically, it will handle instance batching of static meshes, batching and psuedo-atlasing of textures, multithreading support for loadspreading, LUA-based script management, and more. As I consider myself an amateur at C++ and at programming in general, the code will not initially made public to save myself shame and embarrassment. In the future, the engine may become opensource to allow for community input and possibly use by other individuals/organizations for their own projects.
 
-## Adding New Posts
+### Outline
+The engine is being developed with at least one game project in mind, using the design choices for the game as a general guideline for what the engine needs to accomplish. This is a two-way street, in that engine advancements and limitations can alter the game project's design outline. The game portion is intended to be a more old-school PCRPG experience. Aiming towards many different avenues of progression and gameplay beyond whack with sword. Existing modern and older games hold many "truths" to the gameplay experience that should neither be rejected nor ignored.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+To put in the simplest terms possible, the goals of the engine and its associated project is this:
+ - Create and interesting world that people would want to go to
+ - Have intuitive ways to move through and interact with it
+ - Fill the world with unique and inspiring places
+ - Fill those places with fun and engaging characters
+ - Have those characters be part of stories, both large and small
+ - Let the player enjoy the world how they want: cooks gonna cook, thieves gonna thief, traders gonna trade, fighters gonna fight
+ - Respect the player's time and wishes
+ - Maximize playability by targeting a nominal level of performance on even low-end hardware
+ - Minimize installation size to avoid the chopping block of uninstallation to free up disk space 
 
-### Tags and Categories
+### About This Devlog
+This development blog will follow the production of the engine, highlighting problems, solutions, and advancements. I may also occasionally rant about design, choices, and decisions for the game project as a whole. Eventually, the game project's components will be implemented into the engine to test, with the experience discussed here. Early production was little more than simple prototyping of concepts in existing engines, such as Unity, CryEngine2, etc. I have worked in some capacity on this project for the better part of six years. This also includes teaching myself C#, C++, and various toolsets necessary for production. I have produced two demos thus far, as well as a couple of small game projects. I do not know how long this process will take, though I anticipate several years to a completed state.
 
-If you list one or more categories or tags in the front matter of your post, they will be included with the post on the page as links. Clicking the link will bring you to an auto-generated archive page for the category or tag, created using the [jekyll-archive][jekyll-archive] gem.
 
-### Cover Images
+### Current Demonstrations
+The lowest grade of hardware verified for these demos is an AMD R5 APU dual core with 4GB of shared RAM.
 
-To add a cover image to your post, set the "cover" property in the front matter with the relative URL of the image (i.e. <code>cover: "/assets/cover_image.jpg"</code>).
+The first version, [CoalStar Engine Demo 0.0.1](https://mega.nz/file/LhlCVapL#OYIqpqonNO9ahLczQaZ6Zdggmq5jbUROF0T__Sbyucs) , was the first demo, and was meant to portray the terrain projection system, as well as basic mesh and LOD swapping with billboards. **(DL Size: 63.0MB - Install Size: 8.02GB)**
 
-### Code Snippets
-
-You can use [highlight.js][highlight] to add syntax highlight code snippets:
-
-Use the [Liquid][liquid] `{% raw %}{% highlight <language> %}{% endraw %}` tag to add syntax highlighting to code snippets.
-
-For instance, this template...
-{% highlight html %}
-{% raw %}{% highlight javascript %}    
-function demo(string, times) {    
-  for (var i = 0; i < times; i++) {    
-    console.log(string);    
-  }    
-}    
-demo("hello, world!", 10);
-{% endhighlight %}{% endraw %}
-{% endhighlight %}
-
-...will come out looking like this:
-
-{% highlight javascript %}
-function demo(string, times) {
-  for (var i = 0; i < times; i++) {
-    console.log(string);
-  }
-}
-demo("hello, world!", 10);
-{% endhighlight %}
-
-Syntax highlighting is done using [highlight.js][highlight]. You can change the active theme in [head.html](https://github.com/bencentra/centrarium/blob/2dcd73d09e104c3798202b0e14c1db9fa6e77bc7/_includes/head.html#L15).
-
-### Blockquotes
-
-> "Blockquotes will be indented, italicized, and given a subdued light gray font. These are good for side comments not directly related to your content, or long quotations from external sources." - Some Smart Guy
-
-### Images
-
-Lightbox has been enabled for images. To create the link that'll launch the lightbox, add <code>data-lightbox</code> and <code>data-title</code> attributes to an <code>&lt;a&gt;</code> tag around your <code>&lt;img&gt;</code> tag. The result is:
-
-<a href="//bencentra.com/assets/images/falcon9_large.jpg" data-lightbox="falcon9-large" data-title="Check out the Falcon 9 from SpaceX">
-  <img src="//bencentra.com/assets/images/falcon9_small.jpg" title="Check out the Falcon 9 from SpaceX">
-</a>
-
-For more information, check out the [Lightbox][lightbox] website.
-
-### Tooltips
-
-With Tippy.js, you can add tooltips to your text with a little bit of HTML and JavaScript. First, create the tooltip trigger: `<span class="tooltip" id="someId">trigger</span>`. Then in a `<script>` tag at the bottom of your page, add some code to initialize the tooltip when the document is ready: `window.tooltips.push(['#someId', { content: "Content" }])`
-
-See the [Tippy.js docs](https://atomiks.github.io/tippyjs/) for additional configuration that you can provide for your tooltips.
-
-You can also use a Liquid `include` to import tooltip text or HTML from an external file: 
-
-```
-window.tooltips.push(['#someOtherId', { content: "{% raw %}{% include tooltips/example.html %}{% endraw %}" }])
-```
-
-To modify the styles for tooltip triggers, find the `.tooltip` class in `_layout.scss`.
-
-Here's an <span class="tooltip" id="someId">example tooltip</span>, and <span class="tooltip" id="someOtherId">here's another</span>.
-
-<br/>
-{% include page_divider.html %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
-[highlight]:   https://highlightjs.org/
-[lightbox]:    http://lokeshdhakar.com/projects/lightbox2/
-[jekyll-archive]: https://github.com/jekyll/jekyll-archives
-[liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
-
-<script>
-window.tooltips = window.tooltips || []
-window.tooltips.push(['#someId', { content: "This is the text of the tooltip!" }])
-window.tooltips.push(['#someOtherId', { content: "{% include tooltips/example.html %}", placement: "right" }])
-</script>
+The second version, [CoalStar Engine Demo 0.0.2](https://mega.nz/file/aocVmaCD#4yy16iWCCU8DAh3Ec-iSEO0GA9va4a15mg52f5K7aWA), was a complete rewrite. It displays the same as before, but with a more believable terrain form, basic sun and directional lighting, automatic texture management, metadata-based object loading system, and zlib compression techniques to reduce size. It also uses a software-driven output window. **(DL Size: 1.34GB - Install Size: 1.62GB)**

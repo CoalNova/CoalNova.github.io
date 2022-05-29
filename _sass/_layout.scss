@@ -87,7 +87,7 @@ pre code.hljs {
 	text-align: center;
 	&.has-cover {
 		color: $darkest-gray;
-		text-shadow: 0 2px 1px rgba(16, 16, 24, 0.67) !important;
+		text-shadow: 0 2px 1px rgb(196, 196, 255) !important;
 		background-position: 50% 50%;
 		background-size: cover;
 		.title {
@@ -348,6 +348,7 @@ pre code.hljs {
 		.post-header {
 			padding: 0.5em 1em 1em 1em;
 			text-align: center;
+			color: $base-font-color;
 		}
 		.posts-list {
 			@extend %default-ul;
