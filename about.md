@@ -11,4 +11,6 @@ CoalStar is a video game engine project. The goals of the engine are dedicated o
 
 I am, at the time of this writing, the sole developer of the project. I consider myself an amatuer at programming, C++ or otherwise, so the codebase is to remain hidden at this time (if only to save myself shame and embarrassement). All information presented within the blog may change at any time due to the needs of expedited releases, changes in project scope, and/or a complete misunderstanding of what certain systems/subsystems/goals require. 
 
+A link for those interested in a breakdown of the development process may be found at the Trello board, [found here](https://trello.com/b/WMep4bf6/coalstar-development).
+
 ![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
