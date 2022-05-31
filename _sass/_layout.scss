@@ -86,15 +86,17 @@ pre code.hljs {
 	width: 100%;
 	text-align: center;
 	&.has-cover {
-		color: $darkest-gray;
+		color: $base-font-color;
 		text-shadow: 0 2px 1px rgb(196, 196, 255) !important;
 		background-position: 50% 50%;
 		background-size: cover;
 		.title {
 			font-size: modular-scale(6);
+			font-color: $base-font-color;
 		}
 		.subtitle, .info {
 			font-size: modular-scale(1);
+			font-color: $base-font-color;
 		}
 	}
 	.scrim {
