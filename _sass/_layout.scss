@@ -87,7 +87,7 @@ pre code.hljs {
 	text-align: center;
 	&.has-cover {
 		color: $base-font-color;
-		text-shadow: 0 2px 1px rgb(196, 196, 255) !important;
+		text-shadow: 0 2px 1px $darkest-gray !important;
 		background-position: 50% 50%;
 		background-size: cover;
 		.title {
