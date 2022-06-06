@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Igniting a Star"
+title:  "CoalStar"
 date:   2022-05-29 02:29:34
 author: "CoalNova"
 categories: CoalStar
