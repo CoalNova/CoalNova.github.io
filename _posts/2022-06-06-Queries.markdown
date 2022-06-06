@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Queries"
-date:   2022-05-29 02:29:34
+date:   2022-06-06 02:55:34
 author: "CoalNova"
 categories: CoalStar
 tags:	CoalStar Explanation Introduction
