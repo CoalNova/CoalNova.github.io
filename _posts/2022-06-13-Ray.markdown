@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Ray"
+date:   2022-06-06 02:55:34
+author: "CoalNova"
+categories: CoalStar
+tags:	CoalStar Explanation Introduction
+cover:  "/assets/instacode.png"
+---
+
+This week has been less productive than I'd like, but so it goes. Much time was spent on figuring out how to perform a raycast on terrain gemoetry from scratch.
+
+This is one of many wheels being reinvented for reinvention's sake. That is to say: the purpose of implementing such things from scratch, rather than importing libraries, is to learn how they work. It becomes much easier implementing and adapt systems when you understand *how* they perform their functions.
+
+With the raycast, it takes the camera's heading, and creates a list of terrain grid points that lie along the ray's path. It does not use a naive approach, but does calculate length based on "steps". It will then take the whole list, and iterate until a ray-slope intersection lies in the bounds of the grid's area.
+
+The implementation is more expensive than it could be, as the entire list of possible grid points is calculated/generated before the grid points are checked, thus performing caluclations for possibly unneeded points.
+
+The next step is to take the ray heading and adjust based on the mouse pointer's position, which requires applying the perspective projection onto the mouse coords as if it were projected into the worldspace. Once that is completed, the test will be terrain modification on the region highlighted. Further steps are listed in the trello board.
+
+
