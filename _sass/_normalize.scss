@@ -37,7 +37,7 @@ section {
  */
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0.67em 0;
 }
 
@@ -60,7 +60,7 @@ main { /* 1 */
  */
 
 figure {
-  margin: 1em 40px;
+  margin: 1em 10px;
 }
 
 /**
@@ -81,7 +81,7 @@ hr {
 
 pre {
   font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-size: 0.75em; /* 2 */
 }
 
 /* Text-level semantics
@@ -135,7 +135,7 @@ code,
 kbd,
 samp {
   font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-size: 0.75em; /* 2 */
 }
 
 /**
