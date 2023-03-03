@@ -1,16 +1,24 @@
 ---
-layout: page
-title: About
-permalink: /about/
-main_nav: true
+layout: default
+title: About Long Haul
 ---
 
-This is the official Development Weblog for the CoalStar Engine project, and the subsequent projects built within.
-
-CoalStar is a video game engine project. The goals of the engine are dedicated openworld, with seamlessly traversable landforms much larger than most seen in the current market. As well, an emphasis is placed on player movement and interactions, creating a less rigid engagement with the worldspace as a whole. The ideal complete form is an an open world RPG system that players can fully explore and engage with, without the necessary macro/micro scaling necessary in current implementations.
-
-I am, at the time of this writing, the sole developer of the project. I consider myself an amatuer at programming, C++ or otherwise, so the codebase is to remain hidden at this time (if only to save myself shame and embarrassement). All information presented within the blog may change at any time due to the needs of expedited releases, changes in project scope, and/or a complete misunderstanding of what certain systems/subsystems/goals require. 
-
-A link for those interested in a breakdown of the development process may be found at the Trello board, [found here](https://trello.com/b/WMep4bf6/coalstar-development).
-
-![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
+<div class="post">
+	<h1 class="pageTitle">About Long Haul</h1>
+	<img src="{{ '/assets/img/touring.jpg' }}" alt="">
+	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
+	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
+	<h2>Features</h2>
+	<ul>
+		<li>Built with the <a href="https://github.com/jekyll/jekyll-sass-converter">Jekyll SASS convertor</a> plugin</li>
+  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
+  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
+  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
+  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
+      <li>5 Post Loop with excerpt on Home Page</li>
+  		<li>Previous / Next Post Navigation</li>
+      <li>Estimated Reading Time for posts</li>
+  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
+  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
+  	</ul>
+</div>
