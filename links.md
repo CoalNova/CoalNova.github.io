@@ -14,5 +14,5 @@ The lowest grade of hardware verified for these demos is an AMD R5 APU dual core
 ### Other Game Projects
 [TicTacToe](https://mega.nz/file/7t9C3ZbD#lSQqX84eIYY2zw6eYgAwnEezadeXD4vvif8AwqQw-o0) **(DL Size: 1.22MB - Install Size: 4.91MB)** - What the name implies, tic tac toe vs an ai player, made in C++ with the SDL library.
 
-[CubeQuest](https://mega.nz/file/iw10CC5R#4j5FxeKc5BY_8adYyNtntgI-3SBhj99zn0hB8nwKB3w) **(DL Size: 5.94MB - Install Size: 22.0MB)** - An old cube-rolling game made in Unity. Exists only as a hobby project and is in no way to be misrepresented as a marketable product to be purchased, sold, consumed, played, or comprehended.
+[CubeQuest](https://mega.nz/file/iw10CC5R#4j5FxeKc5BY_8adYyNtntgI-3SBhj99zn0hB8nwKB3w) **(DL Size: 5.94MB - Install Size: 22.0MB)** - An old cube-rolling game made in Unity. Exists only as a hobby project and is in no way to be misrepresented as if it were a marketable product to be purchased, sold, consumed, played, or comprehended. In fact, just go ahead and forget this exists.
 
